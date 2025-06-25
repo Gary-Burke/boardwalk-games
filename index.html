@@ -40,7 +40,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="d-flex flex-column min-vh-100">
+<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <div>Navigation</div>
 
@@ -52,29 +53,33 @@
         </div>
     </header>
 
+    <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
-      <section class="container">
-        <div class="row">
-          <div class="col-12">Services section heading</div>
-          <div class="col-12 col-md-6 col-xl-3">Service Card</div>
-          <div class="col-12 col-md-6 col-xl-3">Service Card</div>
-          <div class="col-12 col-md-6 col-xl-3">Service Card</div>
-          <div class="col-12 col-md-6 col-xl-3">Service Card</div>
-        </div>
-      </section>
-
+        <!-- Services section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer / contact section -->
+    <!-- mt-auto added to push footer to the bottom of the page -->
     <footer class="mt-auto">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">Contact section heading</div>
-          <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
-          <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <!-- Opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
         </div>
-      </div>
     </footer>
-   
 
     <!-- Font Awesome Kit -->
     <script
