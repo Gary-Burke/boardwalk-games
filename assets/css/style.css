@@ -58,16 +58,21 @@ h2 {
 
 .custom-button-outline {
     border: 3px solid var(--highlight-color);
-    color: var(--highlight-color);
     padding: 7px 25px;
+    color: var(--highlight-color)
 }
 
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
-    color: white;
+    color: white
 }
 
+/* label */
 
+.custom-label-filled {
+    background-color: var(--highlight-color);
+    color: white;
+}
 
 /* Navbar */
 
@@ -104,7 +109,7 @@ h2 {
     border: none;
 }
 
-/* Footer / Contact */
+/* Footer / contact */
 
 #contact {
     background-color: var(--primary-color);
