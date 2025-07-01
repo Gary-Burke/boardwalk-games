@@ -74,6 +74,7 @@ h2 {
     color: white;
 }
 
+
 /* Navbar */
 
 #navbar {
@@ -158,6 +159,14 @@ h2 {
 } */
 
 /* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 767px) {
+    
+    .dummy {
+    display: none;
+}
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
