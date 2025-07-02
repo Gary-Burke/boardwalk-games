@@ -110,6 +110,12 @@ h2 {
     border: none;
 }
 
+/* Events section */
+
+#events .table {
+    font-size: small;
+}
+
 /* Footer / contact */
 
 #contact {
@@ -161,19 +167,14 @@ h2 {
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
-/* @media screen and (max-width: 767px) {
-    
-    .dummy {
-    display: none;
-}
-} */
-
-/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
     }
+    #events .table {
+    font-size: 1rem;
+}
 }
 
 /* Large devices (small laptops, 992px and up) */
